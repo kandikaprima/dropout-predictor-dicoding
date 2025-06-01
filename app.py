@@ -1,10 +1,9 @@
-
 import streamlit as st
 import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("models\dropout_rf_model.pkl")
+model = joblib.load("models/dropout_rf_model.pkl")
 
 st.title("Prediksi Risiko Dropout Mahasiswa")
 st.markdown("Masukkan data lengkap siswa untuk memprediksi apakah ia berisiko dropout atau tidak.")
